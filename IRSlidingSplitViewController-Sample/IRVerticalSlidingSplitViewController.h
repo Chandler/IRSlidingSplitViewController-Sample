@@ -10,4 +10,6 @@
 
 @interface IRVerticalSlidingSplitViewController : IRSlidingSplitViewController
 
+- (IBAction) handleToggle:(id)sender;
+
 @end

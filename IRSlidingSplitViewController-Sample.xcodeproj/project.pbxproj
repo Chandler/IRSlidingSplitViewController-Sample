@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E04E939F162BBDC700805B30 /* IRSSVCSMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E04E939E162BBDC700805B30 /* IRSSVCSMasterViewController.m */; };
+		E055D89E162D07F600830F8C /* NewsFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E055D89D162D07F600830F8C /* NewsFeedViewController.m */; };
+		E055D8A5162D0A0C00830F8C /* AchievementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E055D8A4162D0A0C00830F8C /* AchievementsViewController.m */; };
 		FF09C05515A2D0E800AEDDAE /* IRVerticalSlidingSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF09C05415A2D0E800AEDDAE /* IRVerticalSlidingSplitViewController.m */; };
 		FF3F16F315A483CE00E9B62C /* IREasingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3F16F215A483CE00E9B62C /* IREasingView.m */; };
 		FF3F16F515A484C500E9B62C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3F16F415A484C500E9B62C /* QuartzCore.framework */; };
@@ -41,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E04E939D162BBDC700805B30 /* IRSSVCSMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRSSVCSMasterViewController.h; path = "IRSlidingSplitViewController-Sample/IRSSVCSMasterViewController.h"; sourceTree = "<group>"; };
+		E04E939E162BBDC700805B30 /* IRSSVCSMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRSSVCSMasterViewController.m; path = "IRSlidingSplitViewController-Sample/IRSSVCSMasterViewController.m"; sourceTree = "<group>"; };
+		E055D89C162D07F600830F8C /* NewsFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedViewController.h; sourceTree = "<group>"; };
+		E055D89D162D07F600830F8C /* NewsFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedViewController.m; sourceTree = "<group>"; };
+		E055D8A3162D0A0C00830F8C /* AchievementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementsViewController.h; sourceTree = "<group>"; };
+		E055D8A4162D0A0C00830F8C /* AchievementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementsViewController.m; sourceTree = "<group>"; };
 		FF09C05315A2D0E800AEDDAE /* IRVerticalSlidingSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRVerticalSlidingSplitViewController.h; path = "IRSlidingSplitViewController-Sample/IRVerticalSlidingSplitViewController.h"; sourceTree = "<group>"; };
 		FF09C05415A2D0E800AEDDAE /* IRVerticalSlidingSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRVerticalSlidingSplitViewController.m; path = "IRSlidingSplitViewController-Sample/IRVerticalSlidingSplitViewController.m"; sourceTree = "<group>"; };
 		FF3F16F115A483CE00E9B62C /* IREasingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IREasingView.h; path = "IRSlidingSplitViewController-Sample/IREasingView.h"; sourceTree = "<group>"; };
@@ -81,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E055D89F162D092300830F8C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E055D89C162D07F600830F8C /* NewsFeedViewController.h */,
+				E055D89D162D07F600830F8C /* NewsFeedViewController.m */,
+				E055D8A3162D0A0C00830F8C /* AchievementsViewController.h */,
+				E055D8A4162D0A0C00830F8C /* AchievementsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		FF3F16FA15A4859600E9B62C /* AHEasing */ = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +118,9 @@
 				FFC514DE15A2C1BA0063B548 /* IRSSVCSAppDelegate.h */,
 				FFC514DF15A2C1BA0063B548 /* IRSSVCSAppDelegate.m */,
 				FF09C05315A2D0E800AEDDAE /* IRVerticalSlidingSplitViewController.h */,
+				E04E939D162BBDC700805B30 /* IRSSVCSMasterViewController.h */,
+				E055D89F162D092300830F8C /* ViewControllers */,
+				E04E939E162BBDC700805B30 /* IRSSVCSMasterViewController.m */,
 				FF09C05415A2D0E800AEDDAE /* IRVerticalSlidingSplitViewController.m */,
 				FF3F16F115A483CE00E9B62C /* IREasingView.h */,
 				FF3F16F215A483CE00E9B62C /* IREasingView.m */,
@@ -237,6 +260,9 @@
 				FF3F16F315A483CE00E9B62C /* IREasingView.m in Sources */,
 				FF3F16FB15A4868500E9B62C /* CAKeyframeAnimation+AHEasing.m in Sources */,
 				FF3F16FC15A4868500E9B62C /* easing.c in Sources */,
+				E04E939F162BBDC700805B30 /* IRSSVCSMasterViewController.m in Sources */,
+				E055D89E162D07F600830F8C /* NewsFeedViewController.m in Sources */,
+				E055D8A5162D0A0C00830F8C /* AchievementsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
